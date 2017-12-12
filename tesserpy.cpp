@@ -2,6 +2,7 @@
 
 // Code is clean against NumPy 1.7 API
 #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+#define USE_STD_NAMESPACE
 
 #include <Python.h>
 #include <structmember.h>
